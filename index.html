@@ -21,9 +21,10 @@
                         <a class="nav-link dropdown-toggle" href="#" id="submenu" role="button" data-bs-toggle="dropdown">Servicios</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#" id="mostrarFrenos">Tipos de frenos</a></li>
+                            <li><a class="dropdown-item" href="#" id="mostrarReparaciones">Reparaciones</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" id="mostrarNosotros">Nosotros</a></li>
                 </ul>
             </div>
         </div>
@@ -31,12 +32,15 @@
 
     <header class="text-center mt-4">
         <h1>Bienvenido a Mundo Frenos Versa</h1>
-        <p>Explora las opciones del menú desplegable</p>
+        <p>Estamos para ofrecer un servio de calidad</p>
+        <img id="imagenInicio" src="Inicio.jpg" class="img-fluid mt-3" alt="Imagen de reparación de frenos">
     </header>
+    
 
-    <!-- Contenedor de tarjetas (oculto por defecto) -->
+    <!-- Contenedores (ocultos por defecto) -->
     <div id="contenedorFrenos" class="container mt-4 d-none">
-        <div class="row g-4"> <!-- Espaciado uniforme -->
+        <h2 class="text-center mb-4">Tipos de Frenos</h2>
+        <div class="row g-4">
             <div class="col-md-4">
                 <div class="card h-100"> 
                     <img src="freno_disco.jpg" class="card-img-top" alt="Freno de disco">
@@ -88,6 +92,72 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Frenos Eléctricos</h5>
                         <p class="card-text flex-grow-1">Innovación en vehículos modernos con menor desgaste.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contenedorReparaciones" class="container mt-4 d-none">
+        <h2 class="text-center mb-4">Reparaciones</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="reparacion_frenos.jpg" class="card-img-top" alt="Reparación de frenos">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Reparación de Frenos</h5>
+                        <p class="card-text flex-grow-1">Diagnóstico y mantenimiento preventivo para garantizar seguridad.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="cambio_pastillas.jpg" class="card-img-top" alt="Cambio de pastillas">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Cambio de Pastillas</h5>
+                        <p class="card-text flex-grow-1">Sustitución de pastillas desgastadas para evitar pérdida de rendimiento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contenedorNosotros" class="container mt-4 d-none">
+        <h2 class="text-center mb-4">Nuestro Equipo</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="tecnico.jpg" class="card-img-top" alt="Técnico especializado">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Juan Pérez</h5>
+                        <p class="card-text flex-grow-1">Técnico especializado en sistemas de frenos con más de 10 años de experiencia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="tecnico.jpg" class="card-img-top" alt="Gerente General">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Andres Santana</h5>
+                        <p class="card-text flex-grow-1">Técnico especializado en sistemas de frenos con más de 10 años de experiencia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="tecnico.jpg" class="card-img-top" alt="Gerente Administrativo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Brayan Gaviria</h5>
+                        <p class="card-text flex-grow-1">Técnico especializado en sistemas de frenos con más de 10 años de experiencia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="tecnico.jpg" class="card-img-top" alt="Gerente de Operaciones">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Juan Sandoval</h5>
+                        <p class="card-text flex-grow-1">Técnico especializado en sistemas de frenos con más de 10 años de experiencia.</p>
                     </div>
                 </div>
             </div>
