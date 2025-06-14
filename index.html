@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mundo Frenos Versa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mundo Frenos Versa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="submenu" role="button" data-bs-toggle="dropdown">Servicios</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" id="mostrarFrenos">Tipos de frenos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center mt-4">
+        <h1>Bienvenido a Mundo Frenos Versa</h1>
+        <p>Explora las opciones del menú desplegable</p>
+    </header>
+
+    <!-- Contenedor de tarjetas (oculto por defecto) -->
+    <div id="contenedorFrenos" class="container mt-4 d-none">
+        <div class="row g-4"> <!-- Espaciado uniforme -->
+            <div class="col-md-4">
+                <div class="card h-100"> 
+                    <img src="freno_disco.jpg" class="card-img-top" alt="Freno de disco">
+                    <div class="card-body d-flex flex-column"> 
+                        <h5 class="card-title">Freno de Disco</h5>
+                        <p class="card-text flex-grow-1">Mayor eficiencia y rendimiento en autos deportivos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="freno_tambor.jpg" class="card-img-top" alt="Freno de tambor">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Freno de Tambor</h5>
+                        <p class="card-text flex-grow-1">Común en vehículos antiguos y económicos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="freno_regenerativo.jpg" class="card-img-top" alt="Freno regenerativo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Freno Regenerativo</h5>
+                        <p class="card-text flex-grow-1">Recupera energía en vehículos eléctricos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="freno_hidraulico.jpg" class="card-img-top" alt="Frenos Hidráulicos">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Frenos Hidráulicos</h5>
+                        <p class="card-text flex-grow-1">Usados en sistemas de alta precisión y seguridad.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="freno_neumatico.jpg" class="card-img-top" alt="Frenos Neumáticos">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Frenos Neumáticos</h5>
+                        <p class="card-text flex-grow-1">Utilizados en camiones y autobuses para mayor control.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="freno_electrico.jpg" class="card-img-top" alt="Frenos Eléctricos">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Frenos Eléctricos</h5>
+                        <p class="card-text flex-grow-1">Innovación en vehículos modernos con menor desgaste.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
